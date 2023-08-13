@@ -1,0 +1,138 @@
+/*
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map.
+ */
+#map {
+  width: 100%;
+  height: 84.444444444444444%;
+  margin: 0 auto;
+}
+
+/*
+   * Optional: Makes the sample page fill the window.
+   */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.padding1 {
+  width: 5.348837209302%;
+  height: 100%
+}
+
+/*main content*/
+
+.top_background {
+  width: 100%;
+  height: 15.555555555%;
+  margin: 0 auto;
+  background-color: #255ECE;
+  position: absolute;
+  z-index: 5;
+}
+
+.main_window {
+  position: relative;
+  height: 100%;
+  max-height: 1080px;
+  width: 430px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.top_container {
+  width: 100%;
+  height: 15.5555555555%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.goback_container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.goback {
+  width: 15px;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.goback_img {
+  width: 100%;
+  height: 100%;
+}
+
+.title1 {
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  padding-left: 2.325581395348%;
+}
+
+.searchbar_container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchbar {
+  width: 89.30232558139534%;
+  height: 60.7142857142857%;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  border: 1px;
+  border-style: solid;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchbar_text {
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: -0.08em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  padding-left: 6.806282722513%;
+}
+
+.search_img_container{
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  position: relative;
+  right: 6.020942408376%;
+}
+
+.search_img{
+  width: 100%;
+  height: 100%;
+}
